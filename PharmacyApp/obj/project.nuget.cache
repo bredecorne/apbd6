@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VyhRis+VrAOrfp3CzK4GTOr6zS2n5a0JRYnZ8unfA986kisNU8ab5E4pw+BuEk7JJ62AwAO7NvRE7O5ekvVHUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s26484\\RiderProjects\\PharmacyApp\\PharmacyApp\\PharmacyApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s26484\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\s26484\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
