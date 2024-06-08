@@ -17,6 +17,8 @@ public class PharmacyDbContext : DbContext
     
     public virtual DbSet<Prescription> Prescriptions { get; set; }
     
+    public virtual DbSet<PrescriptionMedicament> PrescriptionMedicaments { get; set; }
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
