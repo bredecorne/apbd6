@@ -8,7 +8,6 @@ public class DoctorConfig : IEntityTypeConfiguration<Doctor>
 {
     public void Configure(EntityTypeBuilder<Doctor> builder)
     {
-        // adding data
         var doctors = new List<Doctor>();
         
         doctors.Add(new Doctor(

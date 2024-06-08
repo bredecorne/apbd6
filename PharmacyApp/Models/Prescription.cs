@@ -6,6 +6,7 @@ namespace PharmacyApp.Models;
 public class Prescription
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int IdPrescription { get; set; }
     
     public DateTime Date { get; set; }
@@ -21,6 +22,14 @@ public class Prescription
     public Prescription(int idPrescription, DateTime date, DateTime dueDate, int idPatient, int idDoctor)
     {
         IdPrescription = idPrescription;
+        Date = date;
+        DueDate = dueDate;
+        IdPatient = idPatient;
+        IdDoctor = idDoctor;
+    }
+
+    public Prescription(DateTime date, DateTime dueDate, int idPatient, int idDoctor)
+    {
         Date = date;
         DueDate = dueDate;
         IdPatient = idPatient;

@@ -23,5 +23,7 @@ public class PharmacyDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new DoctorConfig());
+        modelBuilder.ApplyConfiguration(new MedicamentConfig());
+        modelBuilder.ApplyConfiguration(new PatientConfig());
     }
 }
