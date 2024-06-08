@@ -15,6 +15,8 @@ builder.Services.AddDbContext<PharmacyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
+// dotnet ef migrations add INFORMACJA CO SIĘ ZMIENIŁO
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
